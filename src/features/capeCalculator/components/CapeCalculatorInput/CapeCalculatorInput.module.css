@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Remove arrows/spinner from number input */
+.container ::-webkit-outer-spin-button,
+.container ::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
