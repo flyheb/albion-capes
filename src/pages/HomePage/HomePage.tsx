@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-import { ROUTE_PATHS } from '../../routes/routePaths';
 import CapeCalculator from '../../features/capeCalculator';
 import logo from '../../assets/images/logo_albion_capes.png';
 import styles from './HomePage.module.css';
