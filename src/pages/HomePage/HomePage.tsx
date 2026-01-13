@@ -1,4 +1,5 @@
 import CapeCalculator from '../../features/capeCalculator';
+import Footer from '../../components/layout/Footer';
 import logo from '../../assets/images/logo_albion_capes.png';
 import styles from './HomePage.module.css';
 
@@ -18,6 +19,8 @@ function HomePage() {
           <CapeCalculator />
         </section>
       </main>
+
+      <Footer />
     </div>
   );
 }

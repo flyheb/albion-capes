@@ -1,0 +1,26 @@
+.footer {
+  text-align: center;
+  padding: var(--spacing-xl) var(--spacing-lg);
+  margin-top: auto;
+}
+
+.credits {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  margin: 0;
+}
+
+.author {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-gray-300);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .credits {
+    font-size: var(--font-size-xs);
+  }
+}
