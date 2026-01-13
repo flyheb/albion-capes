@@ -107,6 +107,13 @@
   color: var(--color-success);
 }
 
+.insufficientValue {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-error);
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .capeImage {
     width: 64px;

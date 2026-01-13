@@ -19,12 +19,6 @@ function HomePage() {
         <section className={styles.calculatorSection}>
           <CapeCalculator />
         </section>
-
-        <nav className={styles.navigation}>
-          <Link to={ROUTE_PATHS.ABOUT} className={styles.link}>
-            Sobre o Projeto →
-          </Link>
-        </nav>
       </main>
     </div>
   );

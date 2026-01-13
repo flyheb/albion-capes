@@ -88,7 +88,11 @@ function TierResultCard({ result }: TierResultCardProps) {
 
         <div className={`${styles.detailRow} ${styles.remainingRow}`}>
           <span className={styles.detailLabel}>Pontos restantes:</span>
-          <span className={styles.remainingValue}>{formatPoints(remainingPoints)}</span>
+          {maxCapes === 0 ? (
+            <span className={styles.insufficientValue}>Pontos insuficientes</span>
+          ) : (
+            <span className={styles.remainingValue}>{formatPoints(remainingPoints)}</span>
+          )}
         </div>
       </div>
     </div>
